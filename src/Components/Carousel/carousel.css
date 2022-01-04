@@ -44,6 +44,7 @@
 }
 .mainContainer{
   margin-top:20px;
+  background-color:grey;
 
 }
 .carouselWrapper {
@@ -104,6 +105,7 @@ ol, li {
   counter-reset: item;
   scroll-behavior: smooth;
   scroll-snap-type: x mandatory;
+  
 }
 
 .image{
@@ -119,6 +121,7 @@ ol, li {
   width: 100%;
   background-color: #f99;
   counter-increment: item;
+  
 }
 
 .carousel__slide:nth-child(even) {

@@ -39,7 +39,7 @@ export default function Carousel() {
                 tabindex="0"
                 class="carousel__slide">
               <div class="carousel__snapper">
-                <img  className="image" src="../Assets/Featured/IMG_3298.PNG"></img></div>
+                <img  className="image" src="../Assets/Featured/IMG_3416.jpeg"></img></div>
               <a href="#carousel__slide3"
                 class="carousel__prev">Go to previous slide</a>
               <a href="#carousel__slide1"

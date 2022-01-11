@@ -8,7 +8,7 @@ export default function Contact() {
   const [message, setMessage] = useState(false);
 
   const handleSubmit = (e)=>{
-    e.preventDefault();
+    // e.preventDefault();
     emailjs.sendForm('service_ny028wi', 'template_v4qkllg', e.target, process.env.REACT_APP_API_KEY) //will work if we put the actual API key into the function we just need to figure out how to hide the API key in the .env and still use it.
     .then((result) => {
       console.log(result.text);
@@ -24,7 +24,7 @@ export default function Contact() {
       <Header />
         <div className="contact" id="contact">
           <div className="left">
-            <img src="Assets/Contact/IMG_4036.jpeg" className='contactImg' />
+            <img src="Assets/Contact/Contact.jpg" className='contactImg' />
           </div>
           <div className="right">
             <h2>Contact.</h2>

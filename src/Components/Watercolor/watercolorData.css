@@ -1,0 +1,39 @@
+.watercolor{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: grey;
+  height: 80vh;
+  width: 80%;
+  
+}
+.cardLeft{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex:1;
+}
+.cardRight{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: space-between;
+  flex:1;
+}
+
+.cardWatercolorImg{
+  display:flex;
+  width: 80%;
+  height: auto;
+}
+
+.fa-times-circle {
+  align-self: flex-end;
+  /* justify-content: flex-start; */
+}

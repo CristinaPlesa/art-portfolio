@@ -10,12 +10,18 @@
   height: 75px;
   width:100%;
   display: flex;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: lighter;
   justify-content: space-evenly;
+  
 }
 
+.navLink:hover{
+ font-size: 25px;
+ /* You can put your fonts style here */
+}
 .navLink{
+  cursor: pointer;
  /* You can put your fonts style here */
 }
 
